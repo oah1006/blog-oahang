@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="header h-[600px] w-full bg-gradient-to-b from-[#321073] to-[#0095CE]">
+            <div class="header__navbar px-[150px] pt-6 flex justify-between align-items">
+                <div class="header__navbar-img">
+                    <img src="../assets/img/logo.png" alt="">
+                </div>
+                <ul class="header__navbar-menu flex space-x-5 text-[#fff] m-auto">
+                    <li class="group relative hover:text-[#999] ">
+                        <a href="">Home</a>
+                        <i class='bx bx-chevron-down'></i>
+                        <ul class="subnav absolute hidden group-hover:block hover:origin-bottom-left bg-[#fff] text-[#000] min-w-[200px] top-[30px] left-0">
+                            <li class="p-[10px]">Home 1</li>
+                            <li class="pb-[10px] pl-[10px]">Home 2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">About Us</a>
+                        <i class='bx bx-chevron-down' ></i>
+                    </li>
+                    <li class="group relative hover:text-[#999]">
+                        <a href="">Services</a>
+                        <i class='bx bx-chevron-down' ></i>
+                        <ul class="subnav absolute hidden group-hover:block hover:origin-bottom-left bg-[#fff] text-[#000] min-w-[200px] top-[30px] left-0">
+                            <li class="p-[10px]">Services</li>
+                            <li class="pb-[10px] pl-[10px]">Services details</li>
+                        </ul>
+                    </li>
+                    <li class="group relative hover:text-[#999]">
+                        <a href="">Projects</a>
+                        <i class='bx bx-chevron-down' ></i>
+                        <ul class="subnav absolute hidden group-hover:block hover:origin-bottom-left bg-[#fff] text-[#000] min-w-[200px] top-[30px] left-0">
+                            <li class="p-[10px]">Projects</li>
+                            <li class="pb-[10px] pl-[10px]">Projects details</li>
+                        </ul>
+                    </li>
+                    <li class="group relative hover:text-[#999]">
+                        <a href="">Pages</a>
+                        <i class='bx bx-chevron-down' ></i>
+                        <ul class="subnav absolute hidden group-hover:block hover:origin-bottom-left bg-[#fff] text-[#000] min-w-[200px] top-[30px] left-0">
+                            <li class="p-[10px]">About Us</li>
+                            <li class="pb-[10px] pl-[10px]">Team</li>
+                            <li class="pb-[10px] pl-[10px]">Pricing</li>
+                            <li class="pb-[10px] pl-[10px]">404 Error</li>
+                            <li class="pb-[10px] pl-[10px]">FAQ</li>
+                            <li class="pb-[10px] pl-[10px]">Comming soon</li>
+                        </ul>
+                    </li>
+                    <li class="group relative hover:text-[#999]">
+                        <a href="">Blog</a>
+                        <i class='bx bx-chevron-down' ></i>
+                        <ul class="subnav absolute hidden group-hover:block hover:origin-bottom-left bg-[#fff] text-[#000] min-w-[200px] top-[30px] left-0">
+                            <li class="p-[10px]">Blog Grid</li>
+                            <li class="pb-[10px] pl-[10px]">Blog Right Sidebar</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                        <i class='bx bx-chevron-down' ></i>
+                    </li>
+                </ul>
+                <button class="bg-[#7B68EE] px-[33px] py-[10px] rounded-[4px] text-[#fff] hover:bg-[#0066B5]">
+                    Get It Support
+                </button>
+            </div>
+            <div class="header__jumbotron grid grid-cols-2 px-[150px] mt-[80px]">
+                <div class="header__jumbotron-introduce">
+                    <div class="header__jumbotron-introduce-content">
+                        <h1 class="text-[50px] font-bold text-[#fff]">IT Solutions & Business Services Company</h1>
+                        <p class="text-[#fff] my-[30px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.
+                        </p>
+                    </div>
+                    <div class="header__jumbotron-introduce-controls">
+                        <button class="bg-[#fff] px-[33px] py-[10px] rounded-[4px] text-[#996AEE] hover:bg-[#0066B5]">
+                            About Us
+                        </button>
+                        <button class="bg-[#7B68EE] px-[33px] py-[10px] rounded-[4px] text-[#fff] hover:bg-[#0066B5]">
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+
+                <div class="header__jumbotron-img">
+                    <img src="../assets/img/home-font.png" class="w-full h-[450px] object-contain" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
