@@ -1,2 +1,5 @@
-/* Subnav */
+/* modal */
 
+.modal__overplay {
+    background: rgba(0, 0, 0, 0.4);
+}
