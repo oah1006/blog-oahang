@@ -4,12 +4,32 @@
     background: rgba(0, 0, 0, 0.4);
 }
 
-.swiper {
-    width: 100%;
+
+html,
+body {
+    position: relative;
     height: 100%;
 }
 
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: calc(100% - 300px);
+    height: 600px;
+}
+
 .swiper-slide {
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 1px 1px #ccc;
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -29,7 +49,10 @@
     align-items: center;
 }
 
+
 .swiper-slide img {
     display: block;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
