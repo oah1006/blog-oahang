@@ -558,6 +558,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 20px;
 }
 
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .mt-\[18px\] {
   margin-top: 18px;
 }
@@ -572,10 +576,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-\[5px\] {
   margin-right: 5px;
-}
-
-.mt-\[50px\] {
-  margin-top: 50px;
 }
 
 .box-border {
@@ -610,8 +610,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 610px;
 }
 
-.h-\[80px\] {
-  height: 80px;
+.h-\[200px\] {
+  height: 200px;
 }
 
 .h-\[40px\] {
@@ -622,22 +622,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 36px;
 }
 
-.h-\[150px\] {
-  height: 150px;
-}
-
-.h-\[350px\] {
-  height: 350px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -646,20 +630,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 350px;
 }
 
-.w-\[80px\] {
-  width: 80px;
+.w-\[200px\] {
+  width: 200px;
 }
 
 .w-\[500px\] {
   width: 500px;
-}
-
-.w-\[150px\] {
-  width: 150px;
-}
-
-.w-\[200px\] {
-  width: 200px;
 }
 
 .min-w-\[200px\] {
@@ -710,10 +686,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
@@ -736,10 +708,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.justify-self-center {
-  justify-self: center;
 }
 
 .rounded-\[3px\] {
